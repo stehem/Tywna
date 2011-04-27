@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+	
+
+
+
+
+
+    <h1 id=""></h1>
+
+	{% if query and purchases%}
+	<h2>Results for {{ query }}</h2> 
+	{% elif query and not purchases%}
+	<h2>No results for: {{ query }}</h2> 
+	{% endif %}
+
+
+		{% for purchase in purchases %}
+
+
+		<div class="image">
+			<div class="image_title">
+
+
+
+				<span title="{{ purchase.pic_title }}"> {{ purchase.pic_title|truncate(length=20, killwords=True, end='...') }}</span>
+			</div>
+			<div class="image_image">
+				<a href='images/large/{{ purchase.key() }}' class="img"><img src='images/thumb/{{ purchase.key() }}' alt="{{ purchase.pic_title }}"></img></a>
+			</div>
+			<div id="infos">
+			<a href="/?search={{ purchase.pic_poster }}" title="{{ purchase.pic_poster }}">{{ purchase.pic_poster|truncate(length=15, killwords=True, end='') }}</a> |
+
+
+			<span title="{{ purchase.pic_where }}"> {{ purchase.pic_where|truncate(length=10, killwords=True, end='') }}</span> |
+
+
+			<span title="{{ purchase.pic_price }}"> {{ purchase.pic_price|truncate(length=5, killwords=True, end='') }}</span>
+			</div>
+		</div>
+		{% endfor %}
+
+
+	<div class="clear"></div>
+	{% if previous %}
+	<a href="/?page={{ previous }}">Previous</a> 
+	{% endif %}
+
+	{% if next %}
+	<a href="/?page={{ next }}">Next</a> 
+	{% endif %}
+
+
+{% endblock %}
+
+
+
+
+
+
+

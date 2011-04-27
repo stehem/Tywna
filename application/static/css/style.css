@@ -1,0 +1,1352 @@
+
+/* ==== Scroll down to find where to put your styles :) ==== */
+
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+body, select, input, textarea {  color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+
+
+
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+@media all and (orientation:portrait) {
+
+}
+
+@media all and (orientation:landscape) {
+
+}
+
+@media screen and (max-device-width: 480px) {
+
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+
+
+
+
+
+.image{
+	float:left;
+	padding: 10px;
+	margin: 10px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;  
+	-moz-box-shadow: 1px 1px 2px #000;
+	-webkit-box-shadow: 1px 1px 2px #000;
+	height: 150px;
+}
+
+.image_title{
+	font-family: Chunkfive;
+	color: gray;
+	text-align: center;
+}
+
+
+#infos a {
+	text-decoration: none;
+}
+
+#infos {
+	text-align: center;
+	font-size: 90%;
+  	word-wrap: break-word;
+}
+
+
+.image_image img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+
+}
+
+
+
+#search_box{
+	margin-top: 18px;
+	float:right;
+}
+
+@font-face {
+   font-family: Chunkfive;
+  src: url('/static/fonts/Chunkfive-webfont.eot?') format('eot'), url('/static/fonts/Chunkfive-webfont.woff') format('woff'), url('/static/fonts/Chunkfive-webfont.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: Lobster;
+  src: url('/static/fonts/Lobster_1.3-webfont.eot?') format('eot'), url('/static/fonts/Lobster_1.3-webfont.woff') format('woff'), url('/static/fonts/Lobster_1.3-webfont.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: Pincoya;
+  src: url('/static/fonts/pincoyablack-webfont.eot?') format('eot'), url('/static/fonts/pincoyablack-webfont.woff') format('woff'), url('/static/fonts/pincoyablack-webfont.ttf') format('truetype');
+}
+
+.fontface #logo  {
+   font: 65px Pincoya;
+}
+.no-fontface #logo  {/*
+   Specify a background image as a fallback or prepare rules for sIFR/Cufon.
+*/}
+
+
+.fontface #sublogo  {
+   font: 14px Chunkfive;
+}
+
+#logo a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+}
+
+#topline{
+	background-color: lightgrey;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+#logo{
+	float:left;  
+	margin-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#sublogo{
+	float:left;  
+	color: white;
+	margin-top: -15px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+
+}
+
+.top_text{
+	font: 16px Lobster;
+}
+
+#post_link a{
+	color: white;
+}
+
+#post_link a:visited{
+	color: white;
+}
+
+.top_text_button{
+	font: 16px Lobster;
+	padding-top: 4px;
+	color: white;
+}
+
+
+
+#post_link{
+	margin-top: 24px;
+	margin-right: 100px;
+	float:right;
+}
+
+
+#logo_wrapper{
+	float:left;
+}
+
+
+.pic_form{
+	padding: 20px;
+	background-color: lightgray;
+	margin-top: 100px;
+	font-family: Lobster;
+	color: white;     
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;   
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+}
+
+.pic_form .field_wrap input{
+	width: 300px; 
+}
+
+
+.fontface .pic_form  {
+   font-family: Chunkfive;
+}
+
+
+
+.label_field_wrap{
+	margin: 10px 0 10px 0;
+}
+
+
+#form_button{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.header{
+	font: 26px Lobster;
+	color: lightgrey;
+	margin: 20px 0 20px 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.20);
+}
+
+.header a{
+	font: 26px Lobster;
+	color: lightgrey;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.20);
+}
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_24 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	
+	
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0 !important;
+}
+
+.omega {
+	margin-right: 0 !important;
+}
+
+
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+ 
+.grid_1, 
+.grid_2, 
+.grid_3, 
+.grid_4, 
+.grid_5, 
+.grid_6, 
+.grid_7, 
+.grid_8, 
+.grid_9, 
+.grid_10, 
+.grid_11, 
+.grid_12, 
+.grid_13, 
+.grid_14, 
+.grid_15, 
+.grid_16, 
+.grid_17, 
+.grid_18, 
+.grid_19, 
+.grid_20, 
+.grid_21, 
+.grid_22, 
+.grid_23,
+.grid_24{
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+
+
+/* Grid >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_24 .grid_1{
+	width:35px;
+}
+
+.container_24 .grid_2{
+	width:75px;
+}
+
+.container_24 .grid_3{
+	width:115px;
+}
+
+.container_24 .grid_4{
+	width:155px;
+}
+
+.container_24 .grid_5{
+	width:195px;
+}
+
+.container_24 .grid_6{
+	width:235px;
+}
+
+.container_24 .grid_7{
+	width:275px;
+}
+
+.container_24 .grid_8{
+	width:315px;
+}
+
+.container_24 .grid_9{
+	width:355px;
+}
+
+.container_24 .grid_10{
+	width:395px;
+}
+
+.container_24 .grid_11{
+	width:435px;
+}
+
+.container_24 .grid_12{
+	width:475px;
+}
+
+.container_24 .grid_13{
+	width:515px;
+}
+
+.container_24 .grid_14{
+	width:555px;
+}
+
+.container_24 .grid_15{
+	width:595px;
+}
+
+.container_24 .grid_16{
+	width:635px;
+}
+
+.container_24 .grid_17{
+	width:675px;
+}
+
+.container_24 .grid_18{
+	width:715px;
+}
+
+.container_24 .grid_19{
+	width:755px;
+}
+
+.container_24 .grid_20{
+	width:795px;
+}
+
+.container_24 .grid_21{
+	width:835px;
+}
+
+.container_24 .grid_22{
+	width:875px;
+}
+
+.container_24 .grid_23{
+	width:915px;
+}
+
+.container_24 .grid_24{
+	width:955px;
+}
+
+
+
+
+
+/* Prefix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+    .container_24 .prefix_1 {
+	padding-left:40px;
+}
+
+    .container_24 .prefix_2 {
+	padding-left:80px;
+}
+
+    .container_24 .prefix_3 {
+	padding-left:120px;
+}
+
+    .container_24 .prefix_4 {
+	padding-left:160px;
+}
+
+    .container_24 .prefix_5 {
+	padding-left:200px;
+}
+
+    .container_24 .prefix_6 {
+	padding-left:240px;
+}
+
+    .container_24 .prefix_7 {
+	padding-left:280px;
+}
+
+    .container_24 .prefix_8 {
+	padding-left:320px;
+}
+
+    .container_24 .prefix_9 {
+	padding-left:360px;
+}
+
+    .container_24 .prefix_10 {
+	padding-left:400px;
+}
+
+    .container_24 .prefix_11 {
+	padding-left:440px;
+}
+
+    .container_24 .prefix_12 {
+	padding-left:480px;
+}
+
+    .container_24 .prefix_13 {
+	padding-left:520px;
+}
+
+    .container_24 .prefix_14 {
+	padding-left:560px;
+}
+
+    .container_24 .prefix_15 {
+	padding-left:600px;
+}
+
+    .container_24 .prefix_16 {
+	padding-left:640px;
+}
+
+    .container_24 .prefix_17 {
+	padding-left:680px;
+}
+
+    .container_24 .prefix_18 {
+	padding-left:720px;
+}
+
+    .container_24 .prefix_19 {
+	padding-left:760px;
+}
+
+    .container_24 .prefix_20 {
+	padding-left:800px;
+}
+
+    .container_24 .prefix_21 {
+	padding-left:840px;
+}
+
+    .container_24 .prefix_22 {
+	padding-left:880px;
+}
+
+    .container_24 .prefix_23 {
+	padding-left:920px;
+}
+
+
+
+/* Suffix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+    .container_24 .suffix_1 {
+	padding-right:40px;
+}
+
+    .container_24 .suffix_2 {
+	padding-right:80px;
+}
+
+    .container_24 .suffix_3 {
+	padding-right:120px;
+}
+
+    .container_24 .suffix_4 {
+	padding-right:160px;
+}
+
+    .container_24 .suffix_5 {
+	padding-right:200px;
+}
+
+    .container_24 .suffix_6 {
+	padding-right:240px;
+}
+
+    .container_24 .suffix_7 {
+	padding-right:280px;
+}
+
+    .container_24 .suffix_8 {
+	padding-right:320px;
+}
+
+    .container_24 .suffix_9 {
+	padding-right:360px;
+}
+
+    .container_24 .suffix_10 {
+	padding-right:400px;
+}
+
+    .container_24 .suffix_11 {
+	padding-right:440px;
+}
+
+    .container_24 .suffix_12 {
+	padding-right:480px;
+}
+
+    .container_24 .suffix_13 {
+	padding-right:520px;
+}
+
+    .container_24 .suffix_14 {
+	padding-right:560px;
+}
+
+    .container_24 .suffix_15 {
+	padding-right:600px;
+}
+
+    .container_24 .suffix_16 {
+	padding-right:640px;
+}
+
+    .container_24 .suffix_17 {
+	padding-right:680px;
+}
+
+    .container_24 .suffix_18 {
+	padding-right:720px;
+}
+
+    .container_24 .suffix_19 {
+	padding-right:760px;
+}
+
+    .container_24 .suffix_20 {
+	padding-right:800px;
+}
+
+    .container_24 .suffix_21 {
+	padding-right:840px;
+}
+
+    .container_24 .suffix_22 {
+	padding-right:880px;
+}
+
+    .container_24 .suffix_23 {
+	padding-right:920px;
+}
+
+
+
+/* Push Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+    .container_24 .push_1 {
+	left:40px;
+}
+
+    .container_24 .push_2 {
+	left:80px;
+}
+
+    .container_24 .push_3 {
+	left:120px;
+}
+
+    .container_24 .push_4 {
+	left:160px;
+}
+
+    .container_24 .push_5 {
+	left:200px;
+}
+
+    .container_24 .push_6 {
+	left:240px;
+}
+
+    .container_24 .push_7 {
+	left:280px;
+}
+
+    .container_24 .push_8 {
+	left:320px;
+}
+
+    .container_24 .push_9 {
+	left:360px;
+}
+
+    .container_24 .push_10 {
+	left:400px;
+}
+
+    .container_24 .push_11 {
+	left:440px;
+}
+
+    .container_24 .push_12 {
+	left:480px;
+}
+
+    .container_24 .push_13 {
+	left:520px;
+}
+
+    .container_24 .push_14 {
+	left:560px;
+}
+
+    .container_24 .push_15 {
+	left:600px;
+}
+
+    .container_24 .push_16 {
+	left:640px;
+}
+
+    .container_24 .push_17 {
+	left:680px;
+}
+
+    .container_24 .push_18 {
+	left:720px;
+}
+
+    .container_24 .push_19 {
+	left:760px;
+}
+
+    .container_24 .push_20 {
+	left:800px;
+}
+
+    .container_24 .push_21 {
+	left:840px;
+}
+
+    .container_24 .push_22 {
+	left:880px;
+}
+
+    .container_24 .push_23 {
+	left:920px;
+}
+
+
+
+
+
+/* Pull Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+    .container_24 .pull_1 {
+	right:40px;
+}
+
+    .container_24 .pull_2 {
+	right:80px;
+}
+
+    .container_24 .pull_3 {
+	right:120px;
+}
+
+    .container_24 .pull_4 {
+	right:160px;
+}
+
+    .container_24 .pull_5 {
+	right:200px;
+}
+
+    .container_24 .pull_6 {
+	right:240px;
+}
+
+    .container_24 .pull_7 {
+	right:280px;
+}
+
+    .container_24 .pull_8 {
+	right:320px;
+}
+
+    .container_24 .pull_9 {
+	right:360px;
+}
+
+    .container_24 .pull_10 {
+	right:400px;
+}
+
+    .container_24 .pull_11 {
+	right:440px;
+}
+
+    .container_24 .pull_12 {
+	right:480px;
+}
+
+    .container_24 .pull_13 {
+	right:520px;
+}
+
+    .container_24 .pull_14 {
+	right:560px;
+}
+
+    .container_24 .pull_15 {
+	right:600px;
+}
+
+    .container_24 .pull_16 {
+	right:640px;
+}
+
+    .container_24 .pull_17 {
+	right:680px;
+}
+
+    .container_24 .pull_18 {
+	right:720px;
+}
+
+    .container_24 .pull_19 {
+	right:760px;
+}
+
+    .container_24 .pull_20 {
+	right:800px;
+}
+
+    .container_24 .pull_21 {
+	right:840px;
+}
+
+    .container_24 .pull_22 {
+	right:880px;
+}
+
+    .container_24 .pull_23 {
+	right:920px;
+}
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+
+
+
+
+/*
+ * Sexy Buttons
+ * 
+ * DESCRIPTION:
+ * 	Sexy, skinnable HTML/CSS buttons with icons.
+ * 
+ * PROJECT URL: 
+ * 	http://code.google.com/p/sexybuttons/
+ * 
+ * AUTHOR:
+ * 	Richard Davies
+ * 	http://www.richarddavies.us
+ * 	Richard@richarddavies.us
+ * 
+ * VERSION:
+ * 	1.1
+ * 
+ * LICENSE:
+ * 	Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+ * 	Creative Commons 3.0 Attribution  (http://creativecommons.org/licenses/by/3.0/)
+ * 
+ * CREDITS:
+ * 	Inspired by, derived from, and thanks to:
+ * 	http://www.p51labs.com/simply-buttons-v2/
+ * 	http://www.oscaralexander.com/tutorials/how-to-make-sexy-buttons-with-css.html
+ * 	http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba
+ * 	http://www.elctech.com/snippets/make-your-buttons-look-super-awesome
+ * 
+ * USAGE:
+ * 	Simply add class="sexybutton [skin]" to a <button> or <a> element and wrap the label text with double <span>s.
+ * 	You can optionally add a "silk" icon to the button text by using a third <span> with class to identify the icon.   
+ * 
+ * EXAMPLE: 
+ * 	<button id="btn1" class="sexybutton" name="btn1" type="submit" value="Submit">
+ * 		<span><span><span class="ok">Submit</span></span></span>
+ * 	</button>
+ */
+
+
+/* 
+ *	Generic styles for all Sexy Buttons
+ */
+
+.sexybutton {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif !important;
+	text-decoration: none !important;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+	background: none;
+	border: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	
+	/* Fix extra width padding in IE */
+	_width: 0;
+	overflow: visible;
+}
+
+.sexybutton span {
+	display: block;						/* Prevents :active from working in IE--oh well! */
+	height: 24px;
+	padding-right: 12px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.sexybutton span span {
+	padding-right: 0;
+	padding-left: 12px;
+	line-height: 24px;
+	background-position: left top;
+}
+
+.sexybutton span span span {
+	padding-left: 21px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _background-image: none;		Or just hide icons from the undeserving IE6 */
+	/* _padding-left: 0;					Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton span span span.after {
+	padding-left: 0px;
+	padding-right: 21px;
+	background-position: right center;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _padding-right: 0;					Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton[disabled],
+.sexybutton[disabled]:hover,
+.sexybutton[disabled]:focus,
+.sexybutton[disabled]:active,
+.sexybutton.disabled,
+.sexybutton.disabled:hover,
+.sexybutton.disabled:focus,
+.sexybutton.disabled:active {
+	color: #333 !important;
+	cursor: inherit;
+	text-shadow: none; 
+	opacity: 0.33;
+}
+
+.sexybutton:hover span,
+.sexybutton:focus span {
+	background-position: 100% -24px;
+}
+
+.sexybutton:hover span span,
+.sexybutton:focus span span {
+	background-position: 0% -24px;
+}
+
+.sexybutton:active span {
+	background-position: 100% -48px;
+}
+
+.sexybutton:active span span {
+	background-position: 0% -48px;
+}
+
+.sexybutton[disabled] span,
+.sexybutton.disabled span {
+	background-position: 100% -72px;
+}
+
+.sexybutton[disabled] span span,
+.sexybutton.disabled span span {
+	background-position: 0% -72px;
+}
+
+.sexybutton:hover span span span,
+.sexybutton:focus span span span,
+.sexybutton:active span span span,
+.sexybutton[disabled] span span span,
+.sexybutton.disabled span span span {
+	background-position: left center;
+}
+
+.sexybutton:hover span span span.after,
+.sexybutton:focus span span span.after,
+.sexybutton:active span span span.after,
+.sexybutton[disabled] span span span.after,
+.sexybutton.disabled span span span.after {
+	background-position: right center;
+}
+
+.sexybutton img {
+	margin-right: 5px;
+	vertical-align: text-top;
+	/* IE6 Hack */
+	_margin-top: 4px;
+	_vertical-align: text-bottom;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _display: none;		Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton img.after {
+	margin-right: 0;
+	margin-left: 5px;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _margin-left: 0;		Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton.sexymedium	{ font-size: 15px !important; }
+.sexybutton.sexylarge	{ font-size: 18px !important; }
+
+
+/*
+ * Button Skins
+ * 
+ * .PNG background images with alpha transparency are also supplied if you'd rather use them instead of the 
+ * default .GIF images. (Just beware of IE6's lack of support.) 
+ * 
+ * Additional skins can be added below. The images/skins/ButtonTemplate.psd can be used to create new skins.
+ * Prefix the skin name with "sexy" to avoid any potential conflicts with other class names. 
+ */
+
+/* Silver Button Skin (the default skin) */
+
+.sexybutton,
+.sexybutton.sexysilver {
+	color: #666 !important;
+}
+	
+.sexybutton:hover,
+.sexybutton:focus,
+.sexybutton.sexysilver:hover,
+.sexybutton.sexysilver:focus {
+	color: #333 !important;
+}
+	
+.sexybutton span,
+.sexybutton.sexysilver span {
+	background-image: url(/static/img/images/skins/silver/button_right.gif);
+}
+
+.sexybutton span span,
+.sexybutton.sexysilver span span {
+	background-image: url(/static/img/images/skins/silver/button_left.gif);
+}
+
+/* Orange Button Skin */
+
+.sexybutton.sexyorange,
+.sexybutton.sexyorange:hover,
+.sexybutton.sexyorange:focus {
+	color: white !important;
+}
+	
+.sexybutton.sexyorange[disabled],
+.sexybutton.sexyorange[disabled]:hover,
+.sexybutton.sexyorange[disabled]:active,
+.sexybutton.sexyorange[disabled]:focus,
+.sexybutton.sexyorange.disabled,
+.sexybutton.sexyorange.disabled:hover,
+.sexybutton.sexyorange.disabled:active,
+.sexybutton.sexyorange.disabled:focus {
+	color: #333 !important;
+}
+	
+.sexybutton.sexyorange span {
+	background-image: url(/static/img/images/skins/orange/button_right.gif);
+}
+
+.sexybutton.sexyorange span span {
+	background-image: url(/static/img/images/skins/orange/button_left.gif);
+}
+
+/* Yellow Button Skin */
+
+.sexybutton.sexyyellow,
+.sexybutton.sexyyellow:hover,
+.sexybutton.sexyyellow:focus {
+	color: #994800 !important;
+}
+	
+.sexybutton.sexyyellow span {
+	background-image: url(/static/img/images/skins/yellow/button_right.gif);
+}
+
+.sexybutton.sexyyellow span span {
+	background-image: url(/static/img/images/skins/yellow/button_left.gif);
+}
+
+
+/* 
+ * Simple Skin Buttons
+ */
+
+.sexybutton.sexysimple { 
+	position: relative; 
+	padding: 5px 10px 5px;
+	font: inherit;
+	font-size: 13px !important;
+	font-style: normal !important; 
+	font-weight: bold !important; 
+	color: #fff !important;
+	line-height: 1; 
+	background-image: url(/static/img/images/skins/simple/awesome-overlay-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	
+	/* Special effects */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	
+	/* IE only stuff */
+	border-bottom: 1px solid transparent\9;
+	_background-image: none;
+	
+	/* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*display: inline !important;
+	position: relative;
+	
+	/* Force hasLayout in IE */
+	zoom: 1;
+	
+	/* Disable text selection (Firefox only)*/
+	-moz-user-select: none;
+}
+
+.sexybutton.sexysimple::selection {
+	background: transparent;
+}
+
+.sexybutton.sexysimple:hover,
+.sexybutton.sexysimple:focus {
+	background-position: 0 -50px; 
+	color: #fff !important;
+}
+
+.sexybutton.sexysimple:active { 
+	background-position: 0 -100px; 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
+	/* Unfortunately, Safari doesn't support inset yet */
+	-webkit-box-shadow: none;
+	
+	/* IE only stuff */
+	border-bottom: 0\9;
+	border-top: 1px solid #666\9;
+}
+
+.sexybutton.sexysimple[disabled], 
+.sexybutton.sexysimple.disabled { 
+	background-position: 0 -150px; 
+	color: #333 !important;
+	text-shadow: none; 
+}
+
+.sexybutton.sexysimple[disabled]:hover,
+.sexybutton.sexysimple[disabled]:focus,
+.sexybutton.sexysimple[disabled]:active,
+.sexybutton.sexysimple.disabled:hover,
+.sexybutton.sexysimple.disabled:focus,
+.sexybutton.sexysimple.disabled:active {
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+} 
+
+.sexybutton.sexysimple span {
+	height: auto;
+	padding-left: 24px;
+	padding-right: 0;
+	background-position: left center;
+	background-repeat: no-repeat;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _padding-left: 0;		Or just hide icons from the undeserving IE6 */
+}
+
+.sexybutton.sexysimple span.after {
+	padding-left: 0;
+	padding-right: 24px;
+	background-position: right center;
+	/* IE6 still requires a PNG transparency fix */ 
+	/* _padding-right: 0;		Or just hide icons from the undeserving IE6 */
+}
+
+/* Simple button colors */
+.sexybutton.sexysimple					{ background-color: #333; }		/* Default */
+.sexybutton.sexysimple.sexyblack		{ background-color: #333; }
+.sexybutton.sexysimple.sexyred		{ background-color: #a90118; }
+.sexybutton.sexysimple.sexyorange	{ background-color: #ff8a00; }
+.sexybutton.sexysimple.sexyyellow	{ background-color: #ffb515; }
+.sexybutton.sexysimple.sexygreen		{ background-color: #59a901; }
+.sexybutton.sexysimple.sexyblue		{ background-color: #015ea9; }
+.sexybutton.sexysimple.sexyteal		{ background-color: #2daebf; }
+.sexybutton.sexysimple.sexymagenta	{ background-color: #a9014b; }
+.sexybutton.sexysimple.sexypurple	{ background-color: #9d01a9; }
+.sexybutton.sexysimple.sexywhite	{ background-color: white; }
+
+/* Simple button sizes */
+.sexybutton.sexysimple.sexysmall          { padding: 4px 7px 5px; font-size: 10px !important; }
+.sexybutton.sexysimple.sexysmall:active   { padding: 5px 7px 4px; }
+.sexybutton.sexysimple                    { /* default */ }
+.sexybutton.sexysimple:active             { padding: 6px 10px 4px; }
+.sexybutton.sexysimple.sexymedium         { /* default */ }
+.sexybutton.sexysimple.sexymedium:active  { padding: 6px 10px 4px; }
+.sexybutton.sexysimple.sexylarge          { padding: 8px 14px 8px; font-size: 14px !important; }
+.sexybutton.sexysimple.sexylarge:active   { padding: 9px 14px 7px; }
+.sexybutton.sexysimple.sexyxl             { padding: 8px 14px 8px; font-size: 16px !important; }
+.sexybutton.sexysimple.sexyxl:active      { padding: 9px 14px 7px; }
+.sexybutton.sexysimple.sexyxxl            { padding: 8px 14px 8px; font-size: 20px !important; }
+.sexybutton.sexysimple.sexyxxl:active     { padding: 9px 14px 7px; }
+.sexybutton.sexysimple.sexyxxxl           { padding: 8px 14px 8px; font-size: 26px !important; }
+.sexybutton.sexysimple.sexyxxxl:active    { padding: 9px 14px 7px; }
+
+.sexybutton.sexysimple.sexysmall[disabled]:active,
+.sexybutton.sexysimple.sexysmall.disabled:active   	{ padding: 4px 7px 5px; }
+.sexybutton.sexysimple[disabled]:active,
+.sexybutton.sexysimple.disabled:active 	            { padding: 5px 10px 5px; }
+.sexybutton.sexysimple.sexymedium[disabled]:active,
+.sexybutton.sexysimple.sexymedium.disabled:active 		{ padding: 6px 10px 4px; }
+.sexybutton.sexysimple.sexylarge[disabled]:active,
+.sexybutton.sexysimple.sexylarge.disabled:active   	{ padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxl[disabled]:active,
+.sexybutton.sexysimple.sexyxl.disabled:active	      { padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxxl[disabled]:active,
+.sexybutton.sexysimple.sexyxxl.disabled:active 		   { padding: 8px 14px 8px; }
+.sexybutton.sexysimple.sexyxxxl[disabled]:active,
+.sexybutton.sexysimple.sexyxxxl.disabled:active    	{ padding: 8px 14px 8px; }
+
+
+/*
+ * Icon Definitions
+ */
+
+/* Silk Icons - http://www.famfamfam.com/lab/icons/silk/ */
+/* (Obviously not all Silk icons are defined here. Feel free to define any other icons that you may need.) */
+
+.sexybutton span.ok				{ background-image: url(/static/img/images/icons/silk/tick.png) !important; }
+.sexybutton span.cancel			{ background-image: url(/static/img/images/icons/silk/cross.png) !important; }
+.sexybutton span.add				{ background-image: url(/static/img/images/icons/silk/add.png) !important; }
+.sexybutton span.delete			{ background-image: url(/static/img/images/icons/silk/delete.png) !important; }
+.sexybutton span.download		{ background-image: url(/static/img/images/icons/silk/arrow_down.png) !important; }
+.sexybutton span.download2		{ background-image: url(/static/img/images/icons/silk/package_down.png) !important; }
+.sexybutton span.upload			{ background-image: url(/static/img/images/icons/silk/arrow_up.png) !important; }
+.sexybutton span.search			{ background-image: url(/static/img/images/icons/silk/magnifier.png) !important; }
+.sexybutton span.find			{ background-image: url(/static/img/images/icons/silk/find.png) !important; }
+.sexybutton span.first			{ background-image: url(/static/img/images/icons/silk/resultset_first.png) !important; }
+.sexybutton span.prev			{ background-image: url(/static/img/images/icons/silk/resultset_previous.png) !important; }
+.sexybutton span.next			{ background-image: url(/static/img/images/icons/silk/resultset_next.png) !important; }
+.sexybutton span.last			{ background-image: url(/static/img/images/icons/silk/resultset_last.png) !important; }
+.sexybutton span.play			{ background-image: url(/static/img/images/icons/silk/play_blue.png) !important; }
+.sexybutton span.pause			{ background-image: url(/static/img/images/icons/silk/pause_blue.png) !important; }
+.sexybutton span.rewind			{ background-image: url(/static/img/images/icons/silk/rewind_blue.png) !important; }
+.sexybutton span.forward		{ background-image: url(/static/img/images/icons/silk/forward_blue.png) !important; }
+.sexybutton span.stop			{ background-image: url(/static/img/images/icons/silk/stop_blue.png) !important; }
+.sexybutton span.reload			{ background-image: url(/static/img/images/icons/silk/reload.png) !important; }
+.sexybutton span.sync			{ background-image: url(/static/img/images/icons/silk/arrow_refresh.png) !important; }
+.sexybutton span.save			{ background-image: url(/static/img/images/icons/silk/disk.png) !important; }
+.sexybutton span.email			{ background-image: url(/static/img/images/icons/silk/email.png) !important; }
+.sexybutton span.print			{ background-image: url(/static/img/images/icons/silk/printer.png) !important; }
+.sexybutton span.heart			{ background-image: url(/static/img/images/icons/silk/heart.png) !important; }
+.sexybutton span.like			{ background-image: url(/static/img/images/icons/silk/thumb_up.png) !important; }
+.sexybutton span.dislike		{ background-image: url(/static/img/images/icons/silk/thumb_down.png) !important; }
+.sexybutton span.accept			{ background-image: url(/static/img/images/icons/silk/accept.png) !important; }
+.sexybutton span.decline		{ background-image: url(/static/img/images/icons/silk/decline.png) !important; }
+.sexybutton span.help			{ background-image: url(/static/img/images/icons/silk/help.png) !important; }
+.sexybutton span.home			{ background-image: url(/static/img/images/icons/silk/house.png) !important; }
+.sexybutton span.info			{ background-image: url(/static/img/images/icons/silk/information.png) !important; }
+.sexybutton span.cut				{ background-image: url(/static/img/images/icons/silk/cut.png) !important; }
+.sexybutton span.copy			{ background-image: url(/static/img/images/icons/silk/page_white_copy.png) !important; }
+.sexybutton span.paste			{ background-image: url(/static/img/images/icons/silk/paste_plain.png) !important; }
+.sexybutton span.erase			{ background-image: url(/static/img/images/icons/silk/erase.png) !important; }
+.sexybutton span.undo			{ background-image: url(/static/img/images/icons/silk/arrow_undo.png) !important; }
+.sexybutton span.redo			{ background-image: url(/static/img/images/icons/silk/arrow_redo.png) !important; }
+.sexybutton span.edit			{ background-image: url(/static/img/images/icons/silk/pencil.png) !important; }
+.sexybutton span.calendar		{ background-image: url(/static/img/images/icons/silk/date.png) !important; }
+.sexybutton span.user			{ background-image: url(/static/img/images/icons/silk/user.png) !important; }
+.sexybutton span.settings		{ background-image: url(/static/img/images/icons/silk/cog.png) !important; }
+.sexybutton span.cart			{ background-image: url(/static/img/images/icons/silk/cart.png) !important; }
+.sexybutton span.wand			{ background-image: url(/static/img/images/icons/silk/wand.png) !important; }
+.sexybutton span.wrench			{ background-image: url(/static/img/images/icons/silk/wrench.png) !important; }
+
+
+
+
+
+
+
+

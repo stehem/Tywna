@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% from "_formhelpers.html" import render_field %}
+
+{% block content %}
+
+
+<div class="grid_8 push_7 pic_form">
+	<form action="{{ url_for('new_purchase') }}" enctype="multipart/form-data" method="post">
+		{{ form.hidden_tag() }}
+
+			{{ render_field(form.PicTitle) }}
+	
+			{{ render_field(form.PicImage) }}
+
+			{{ render_field(form.PicWhere) }}
+
+			{{ render_field(form.PicPrice) }}
+	
+			{{ render_field(form.PicPoster) }}
+
+<div id="form_button">
+<button class="sexybutton" type="submit"><span><span><span class="ok">Submit</span></span></span></button></div>
+	</form>
+
+</div>
+
+{% endblock %}
